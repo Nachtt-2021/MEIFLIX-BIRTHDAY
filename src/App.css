@@ -36,3 +36,62 @@
     transform: rotate(360deg);
   }
 }
+
+/* Netflix-inspired styles */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.netflix-row {
+  margin-bottom: 40px;
+}
+
+.netflix-row-title {
+  font-size: 1.4vw;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  color: #e5e5e5;
+}
+
+.netflix-item {
+  transition: transform 0.3s ease;
+}
+
+.netflix-item:hover {
+  transform: scale(1.05);
+  z-index: 10;
+}
+
+.netflix-hero {
+  position: relative;
+  height: 80vh;
+  margin-bottom: 3vw;
+}
+
+.netflix-hero-gradient {
+  background: linear-gradient(to top, #000, transparent);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70%;
+}
+
+.netflix-button-play {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 0.5em 2em;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.netflix-button-more {
+  background-color: rgba(109, 109, 110, 0.7);
+  color: white;
+  border: none;
+  padding: 0.5em 2em;
+  border-radius: 4px;
+  font-weight: bold;
+}
